@@ -4,7 +4,7 @@ use conviva;
 CREATE TABLE Customer (
     id int NOT NULL AUTO_INCREMENT,
     name varchar(255) NOT NULL,
-    sex varchar(255),
+    sex varchar(50),
     Age int,
     PRIMARY KEY (id)
 );
